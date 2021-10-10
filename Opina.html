@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/opina.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <title>Water Scarcity</title>
+    <link rel="shortcut icon" type="image/x-icon" href="droplet.png"/>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img src="" alt="">
+        </div>
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Our Opinion.html">Our Opinion</a></li>
+            <li><a href="Album.html">Album</a></li>
+            <li><a href="Autores.html">Authors</a></li>
+            <li class="active"><a href="#">Any Comments?</a></li>
+        </ul>
+    </div>
+    <header class="headerOpina">
+
+        <div class="title">
+            <h1>Let us know your opinion</h1>
+        </div>
+        <!-- 
+        <div class="button">
+            <a href="#" class="btn">Inbeitga ma</a>
+            <a href="#" class="btn">Dualte</a>
+        </div> -->
+
+    </header>
+
+    <div class="grid-container">
+
+        <div class="divFrom">
+            <form action="">
+                <h1>We are pleased to know your opinion</h1>
+                <label for="">Name</label>
+                <input type="text" name="" id="name" placeholder="Your name here">
+
+                <label for="">Email</label>
+                <input type="email" name="" id="email" placeholder="ex: odalmerg4@gmail.com">
+                <label for="">What are your thoughts about this webpage and the topic chosen?</label>
+                <textarea name="" id="opinion" cols="30" rows="10" placeholder="I think..."></textarea>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+
+
+        <footer class="footer">
+            <p>Water Scarcity by Juan Antonio Ramírez Puello, Erisabel Nuñez Sánchez and Louis Anthony Inoa Beato, all rights reserved, 2021-2022.</p>
+        </footer>
+
+    </div>
+    <script src="JS/scroll2.js"></script>
+    <script src="JS/form.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_bdkwIFHvymtndDlw49eLu");
+        })();
+    </script>
+</body>
+
+</html>

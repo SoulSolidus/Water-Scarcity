@@ -1,0 +1,46 @@
+.headerAutores {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.altolago.com.mx/admin/img/blogs/original/10-documentales-gratis-historia-del-arte-para-ver-durante-confinamiento-1900.jpg);
+    ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.autoresTitle {
+    font-size: 3vw;
+}
+
+.AutorName {
+    text-align: left;
+}
+
+.Biografia {
+    height: 100%;
+}
+
+.imgBoyR {
+    float: left;
+    width: 40%;
+    margin-right: 5vw;
+}
+
+.imgBoyL {
+    float: right;
+    width: 40%;
+    margin-left: 5vw;
+}
+
+.odalmer-bio {
+    position: relative;
+    line-height: 50px;
+    font-size: 1vw;
+}
+
+.juan-bio {
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    line-height: 60px;
+    font-size: 1vw;
+}

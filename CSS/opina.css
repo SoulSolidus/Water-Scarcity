@@ -1,0 +1,40 @@
+.headerOpina {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://miro.medium.com/max/1838/1*vLcoiAgqYP9bb36AxriNfw.jpeg);
+}
+
+.divFrom {
+    /* border: 1px solid red; */
+    width: 80%;
+}
+
+form {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    width: 50%;
+    display: block;
+    /* border: 1px solid red; */
+}
+
+form input, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+}
+
+input[type=submit] {
+    background-color: white;
+}
+input[type=submit]:hover{
+    background-color: #2A3D45;
+    color: white;
+    transition: 0.8 ease;
+}
+form label, input[type=submit] {
+    font-family: 'Comfortaa', cursive;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
