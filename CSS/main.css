@@ -76,7 +76,7 @@ header {
     background-position: center;
 }
 #Index{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Water-Scarcity/IMG/Thousand_Sunny_Being_Constructed.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/IMG/Thousand_Sunny_Being_Constructed.png');
 }
 #Album{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://stori.co.uk/wp-content/uploads/2020/09/DSC0021-copy.jpg);
